@@ -1,6 +1,6 @@
 **********************BACKBASE QA AUTOMATION DEMONSTRATION
 
-**********************The purpose of this automation suite is to Add a computer, read the details of the computer, Update the values of the computer details and delete computer [CRUD opeerations, using company as a constant value, while everything else is configurable] 
+**********************The purpose of this automation suite is to Add a computer, read the details of the computer, Update the values of the computer details and delete computer [CRUD operations, using company as a constant value, while everything else is configurable] 
 
 NOTE : THE TESTSUITE IS DESIGNED FOR HAPPY PATH/ACCEPTANCE TEST SCENARIO. NO DEVIATIONS/NEGATIVE CASES ARE COVERED IN THIS SUITE.
 
@@ -21,16 +21,13 @@ Please follow the below mentioned steps to execute the testsuite.
 
 4. In the config.properties file add the following
     
-    backbase_url=<hthe test URL given> [PLEASE DO NOT " " before and after values]
-    
-    computername=<company_name> [PLEASE DO NOT " " before and after values]
-    
-    introduction_date=<yyyy-mm-dd> [PLEASE DO NOT " " before and after values]
-    
-    discontinued_date=<yyyy-mm-dd> [PLEASE DO NOT " " before and after values][make sure the discontinued_date is greater than      
+    backbase_url=[the test URL given] [PLEASE DO NOT " " before and after values]
+    computername=[company_name] [PLEASE DO NOT " " before and after values]
+    introduction_date=[yyyy-mm-dd] [PLEASE DO NOT " " before and after values]
+    discontinued_date=[yyyy-mm-dd] [PLEASE DO NOT " " before and after values][make sure the discontinued_date is greater than      
     introduction_date]
     
-    updatedcomputername=<updated_companyname> [PLEASE DO NOT " " before and after values]
+    updatedcomputername=[updated_companyname] [PLEASE DO NOT " " before and after values]
 
 5. The suite is designed using python selenium (using find_element_id), making it easy to maintain and in places where id/css is 
    not working xpath is used to do the operations.
