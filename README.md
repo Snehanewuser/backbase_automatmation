@@ -1,6 +1,6 @@
 **********************BACKBASE QA AUTOMATION DEMONSTRATION
 
-**********************The purpose of this automation suite is to Add a computer, read the details of the computer, Update the values of the computer details and delete computer [CRUD operations, using company as a constant value, while everything else is configurable] 
+**********************The purpose of this automation suite is to Add a computer to the database using the web-UI, read the details of the computer, Update the values of the computer details and delete computer [CRUD operations, using company as a constant value, while everything else is configurable] 
 
 NOTE : THE TESTSUITE IS DESIGNED FOR HAPPY PATH/ACCEPTANCE TEST SCENARIO. NO DEVIATIONS/NEGATIVE CASES ARE COVERED IN THIS SUITE.
 
