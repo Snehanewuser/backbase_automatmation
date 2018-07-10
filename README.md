@@ -2,7 +2,7 @@
 
 **********************The purpose of this automation suite is to Add a computer, read the details of the computer, Update the values of the computer details and delete computer [CRUD opeerations, using company as a constant value, while everything else is configurable] 
 
-NOTE THE TESTSUITE IS DESIGNED FOR HAPPY PATH/ACCEPTANCE TEST SCENARIO. NO DEVIATIONS/NEGATIVE CASES ARE COVERED IN THIS SUITE.
+NOTE : THE TESTSUITE IS DESIGNED FOR HAPPY PATH/ACCEPTANCE TEST SCENARIO. NO DEVIATIONS/NEGATIVE CASES ARE COVERED IN THIS SUITE.
 
 The code is the designed using python2(WEBDRIVER+UNITTEST)
 
