@@ -2,7 +2,8 @@
 
 **********************The purpose of this automation suite is to Add a computer, read the details of the computer, Update the values of the computer details and delete computer [CRUD opeerations, using company as a constant value, while everything else is configurable]
 
-The code is the designed used python2(WEBDRIVER+UNITTEST)
+The code is the designed using python2(WEBDRIVER+UNITTEST)
+
 The design approach is modular to suit the custom needs.
 Please follow the below mentioned steps to execute the testsuite.
 1. The host machine used for the automation is ubuntu
