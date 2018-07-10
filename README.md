@@ -59,5 +59,17 @@ Please follow the below mentioned steps to execute the testsuite.
  
  11.The results.py has the function for the results to be stored in the very basic format as PASS or FAIL in reportfile.txt.
  
+ 12.In order to excute the test suite, do the following
+    
+    git clone https://github.com/Snehanewuser/backbase_automatmation.git
+    
+    cd ~/backbase_automatmation/
+    
+    make all the above mentioned changes, mainly in the config.properties
+    trigger the script main.py
+     ~/backbase_automatmation$ python main.py
+    
+13. Check the logs in log.txt and results in resportfile.txt
+ 
  NOTE: Also found in the git repo is the XLS for the manual testcases, the manual testcases sheet also has some findings in form of BUGS/ENHANCEMENTS.
  
